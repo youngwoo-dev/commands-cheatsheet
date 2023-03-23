@@ -1,0 +1,15 @@
+pm2 kill
+
+pm2 log
+
+pm2 list
+
+pm2 monit
+
+pm2 stop 0
+
+pm2 delete 0
+
+pm2 start ecosystem.config.js  : 처음 서버 구동시ps -e | grep node -> 실행중인 프로세스
+
+pm2 restart 0
